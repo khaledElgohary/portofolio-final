@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
+import {Nav} from 'react-bootstrap';
+import {Navbar} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 export function Header() {
   const [show, setShow] = useState(true);
   const [expanded, setExpanded] = useState(false); // State for controlling Navbar expansion
