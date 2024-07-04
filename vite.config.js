@@ -9,13 +9,11 @@ export default defineConfig({
       external: [
         'bootstrap/dist/css/bootstrap.css',
         'framer-motion',
-        'react-bootstrap/Nav',
-        'react-bootstrap/Navbar',
-        'react-bootstrap/Container'
+        'react-bootstrap'
       ]
     },
     optimizeDeps: {
-      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap/Nav','react-bootstrap/Navbar', 'react-bootstrap/Container'],
+      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap'],
     },
   },
 })
