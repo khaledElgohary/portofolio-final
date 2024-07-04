@@ -1,6 +1,4 @@
 import React, {useState,useRef,useEffect} from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
 import {delay, motion} from "framer-motion"
 import { useInView, useAnimation } from 'framer-motion';
 import C from '../assets/tech-icons/C.svg'
