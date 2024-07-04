@@ -7,7 +7,6 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'bootstrap/dist/css/bootstrap.css',
         'framer-motion',
         'react-bootstrap',
         '@mui/material',
@@ -15,7 +14,7 @@ export default defineConfig({
       ]
     },
     optimizeDeps: {
-      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap','@mui/material','@mui/icons-material/KeyboardDoubleArrowDown'],
+      include: ['framer-motion', 'react-bootstrap','@mui/material','@mui/icons-material/KeyboardDoubleArrowDown'],
     },
   },
 })
