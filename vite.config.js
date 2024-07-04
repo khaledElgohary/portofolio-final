@@ -8,11 +8,14 @@ export default defineConfig({
     rollupOptions: {
       external: [
         'bootstrap/dist/css/bootstrap.css',
-        'framer-motion'
+        'framer-motion',
+        'react-bootstrap/Nav',
+        'react-bootstrap/Navbar',
+        'react-bootstrap/Container'
       ]
     },
     optimizeDeps: {
-      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css'],
+      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap/Nav','react-bootstrap/Navbar', 'react-bootstrap/Container'],
     },
   },
 })
