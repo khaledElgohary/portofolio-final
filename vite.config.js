@@ -10,5 +10,5 @@ export default defineConfig({
         'bootstrap/dist/css/bootstrap.css'
       ]
     }
-  }
+  },
 })
