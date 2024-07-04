@@ -7,8 +7,12 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'bootstrap/dist/css/bootstrap.css'
+        'bootstrap/dist/css/bootstrap.css',
+        'framer-motion'
       ]
-    }
+    },
+    optimizeDeps: {
+      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css'],
+    },
   },
 })
