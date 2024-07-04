@@ -12,10 +12,11 @@
   "dependencies": {
     "@coreui/react": "^5.1.0",
     "@emailjs/browser": "^4.3.3",
+    "@emotion/react": "^11.11.4",
     "@mui/icons-material": "^5.15.21",
     "@mui/lab": "^5.0.0-alpha.170",
     "@mui/material": "^5.15.21",
-    "@react-three/drei": "^9.107.0",
+    "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "@react-three/postprocessing": "^2.16.2",
     "@types/three": "^0.165.0",
