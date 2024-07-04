@@ -9,11 +9,12 @@ export default defineConfig({
       external: [
         'bootstrap/dist/css/bootstrap.css',
         'framer-motion',
-        'react-bootstrap'
+        'react-bootstrap',
+        '@mui/material'
       ]
     },
     optimizeDeps: {
-      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap'],
+      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap','@mui/material'],
     },
   },
 })
