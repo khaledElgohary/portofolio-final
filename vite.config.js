@@ -11,11 +11,12 @@ export default defineConfig({
         'framer-motion',
         'react-bootstrap',
         '@mui/material',
-        'react-bootstrap/Nav'
+        'react-bootstrap/Nav',
+        '@mui/icons-material/KeyboardDoubleArrowDown'
       ]
     },
     optimizeDeps: {
-      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap','@mui/material','react-bootstrap/Nav'],
+      include: ['framer-motion', 'bootstrap/dist/css/bootstrap.css', 'react-bootstrap','@mui/material','react-bootstrap/Nav', '@mui/icons-material/KeyboardDoubleArrowDown'],
     },
   },
 })
