@@ -1,5 +1,5 @@
-import React, {useState,useRef,useEffect} from 'react';
-import {delay, motion} from "framer-motion"
+import React, {useRef,useEffect} from 'react';
+import {motion} from "framer-motion"
 import { useInView, useAnimation } from 'framer-motion';
 import C from '../assets/tech-icons/C.svg'
 import android from '../assets/tech-icons/android-icon.svg'

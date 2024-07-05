@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
-import {useState,useRef,useEffect} from 'react';
-import {delay, motion} from "framer-motion"
+import {useRef,useEffect} from 'react';
+import {motion} from "framer-motion"
 import { useInView, useAnimation } from 'framer-motion';
 export default function Contact(){
     const SERVICE_ID = "service_eiq62qs";

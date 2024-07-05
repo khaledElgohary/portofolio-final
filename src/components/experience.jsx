@@ -5,9 +5,9 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import {delay, motion} from "framer-motion"
+import {motion} from "framer-motion"
 import { useInView, useAnimation } from 'framer-motion';
-import React, {useState,useRef,useEffect} from 'react';
+import React, {useRef,useEffect} from 'react';
 
 export default function Experience(){
 

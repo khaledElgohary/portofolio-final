@@ -2,9 +2,9 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { IconButton, SvgIcon } from '@mui/material';
 import Git from '../assets/tech-icons/github-icon.svg'
-import {delay, motion} from "framer-motion"
+import {motion} from "framer-motion"
 import { useInView, useAnimation } from 'framer-motion';
-import React, {useState,useRef,useEffect} from 'react';
+import React, {useRef,useEffect} from 'react';
 
 function GitIcon(props){
     return(

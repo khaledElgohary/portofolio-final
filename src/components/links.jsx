@@ -4,7 +4,7 @@ import Git from '../assets/tech-icons/github-icon.svg'
 import Button from "react-bootstrap/Button";
 import Linkedin from "../assets/tech-icons/linkedin-icon.svg"
 import Email from "../assets/email-file-svgrepo-com.svg"
-import {delay, motion} from "framer-motion"
+import {motion} from "framer-motion"
 import { useInView, useAnimation } from 'framer-motion';
 import React, {useState,useRef,useEffect} from 'react';
 
