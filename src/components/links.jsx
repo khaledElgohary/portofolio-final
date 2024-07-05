@@ -1,7 +1,7 @@
 import Resume from "../assets/Khaled-Elgohary-Resume.pdf"
 import { IconButton, SvgIcon } from '@mui/material';
 import Git from '../assets/tech-icons/github-icon.svg'
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 import Linkedin from "../assets/tech-icons/linkedin-icon.svg"
 import Email from "../assets/email-file-svgrepo-com.svg"
 import {delay, motion} from "framer-motion"
