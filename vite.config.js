@@ -10,13 +10,12 @@ export default defineConfig({
         'framer-motion',
         'react-bootstrap',
         '@mui/material',
-        '@mui/icons-material/KeyboardDoubleArrowDown',
         'react-globe.gl',
         '@mui/lab/Timeline'
       ]
     },
     optimizeDeps: {
-      include: ['framer-motion', 'react-bootstrap','@mui/material','@mui/icons-material/KeyboardDoubleArrowDown','react-globe.gl', '@mui/lab/Timeline'],
+      include: ['framer-motion', 'react-bootstrap','@mui/material','@mui/icons-material','react-globe.gl', '@mui/lab/Timeline'],
     },
   },
 })
