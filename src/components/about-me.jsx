@@ -3,9 +3,8 @@ import  Button  from 'react-bootstrap/Button';
 import React, {useState,useRef,useEffect} from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import {motion} from "framer-motion"
-import { useInView, useAnimation } from 'framer-motion';
-import Globe from "react-globe.gl"
+import {motion, useInView, useAnimation} from "framer-motion";
+import Globe from "react-globe.gl";
 
 
 export default function Aboutme(){
