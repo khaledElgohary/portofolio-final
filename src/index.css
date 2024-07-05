@@ -1,5 +1,10 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 .app {
   background-color: #141619;
 }
@@ -11,7 +16,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   background-color: rgb(0, 0, 0);
-  overflow-x: auto;
+  overflow-x: clip;
 }
 
 .header {
