@@ -6,6 +6,7 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Links from "./components/links";
 import Contact from "./components/contact-form";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 export default function App() {
   return (
     <div className="app">
