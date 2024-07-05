@@ -8,9 +8,6 @@ export default defineConfig({
     rollupOptions: {
       external: [
         'react-bootstrap',
-        '@mui/material',
-        'react-globe.gl',
-        '@mui/lab/Timeline'
       ]
     },
     optimizeDeps: {
