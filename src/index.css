@@ -257,4 +257,23 @@ form{
   color: white;
 }
 
+@media (max-width:768px){
+  .projects-container{
+    width: 50%;
+  }
+
+  .experience-container{
+    width: 50%;
+  }
+
+  .header{
+    width: 50%;
+  }
+
+  .contact-form{
+    width: 50%;
+  }
+
+}
+
 
