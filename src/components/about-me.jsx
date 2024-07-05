@@ -1,5 +1,5 @@
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
-import { Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap/Button';
 import React, {useState,useRef,useEffect} from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
