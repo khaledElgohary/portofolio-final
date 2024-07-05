@@ -7,7 +7,6 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'framer-motion',
         'react-bootstrap',
         '@mui/material',
         'react-globe.gl',
