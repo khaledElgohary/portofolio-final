@@ -76,7 +76,7 @@ export default function Aboutme(){
                             className='motion-container'
                     >
                         <h1 style={{textDecoration:'underline'}}>About me</h1>
-                        <Card variant='outlined' style={{background:'#222528', color:'white', borderRadius:'2%',width:'30%'}}>
+                        <Card variant='outlined' style={{background:'#222528', color:'white', borderRadius:'2%',width:'30%'}} className="project-desc">
                         <CardContent style={{justifyContent:'center'}}>
                             Hello, I'm Khaled 👋 !
                             I'm a Computer Science fresh grad from the University of Manitoba.

@@ -46,7 +46,7 @@ export default function Projects(){
                             initial="hidden"
                             animate={mainControls}
                             transition={{duration:1}}
-                            className="experience-container">
+                            className="projects-container">
             <h1 style={{textDecoration:'underline'}}>Projects + Contributions</h1>
             <div id="projects" style={{paddingTop:'15px'}}>
                 <h3 style={{fontSize:'25px'}}>Canadian Museum for Human Rights speech-to-text system</h3>
@@ -60,7 +60,7 @@ export default function Projects(){
                     </CardContent>
                 </Card>
 
-                <h3 style={{fontSize:'25px', paddingTop:'15px'}}>HighSchool Hub Android App</h3>                
+                <h3 className='project-text' style={{fontSize:'25px', paddingTop:'15px'}}>HighSchool Hub Android App</h3>                
                 <IconButton onClick={()=>window.open('https://github.com/khaledElgohary/high-school-hub')} style={{background:'white'}} className='project-buttons'>
                     <GitIcon/>
                 </IconButton>
@@ -75,7 +75,7 @@ export default function Projects(){
                     </CardContent>
                 </Card>
 
-                <h3 style={{fontSize:'25px', paddingTop:'15px'}}>El-opie Web Scraping website</h3>
+                <h3 className='project-text' style={{fontSize:'25px', paddingTop:'15px'}}>El-opie Web Scraping website</h3>
                 <IconButton onClick={()=>window.open('https://github.com/khaledElgohary/Elopie-wesbite')} style={{background:'white'}} className='project-buttons'>
                     <GitIcon/>
                 </IconButton>
@@ -91,7 +91,7 @@ export default function Projects(){
                     </CardContent>
                 </Card>
 
-                <h3 style={{fontSize:'25px', paddingTop:'15px'}}>Julisten Website</h3>
+                <h3 className='project-text' style={{fontSize:'25px', paddingTop:'15px'}}>Julisten Website</h3>
                 <IconButton onClick={()=>window.open('https://github.com/khaledElgohary/Julisten-Website')} style={{background:'white'}} className='project-buttons'>
                     <GitIcon/>
                 </IconButton>
@@ -104,7 +104,7 @@ export default function Projects(){
                     </CardContent>
                 </Card>
 
-                <h3 style={{fontSize:'25px', paddingTop:'15px'}}>And much more..... Feel free to checkout my github profile for other projects I worked on 🤌🏻</h3>
+                <h3 className='project-text' style={{fontSize:'25px', paddingTop:'15px'}}>Feel free to checkout my github profile for other projects I worked on 🤌🏻</h3>
 
             </div>
                             

@@ -46,48 +46,48 @@ export default function Experience(){
             <div id='experience'>
                 <Timeline position='alternate'>
                     <TimelineItem>
-                        <TimelineOppositeContent color="white">
+                        <TimelineOppositeContent color="white" className='ex-text'>
                             05/2024 - Now
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot/>
                             <TimelineConnector/>
                         </TimelineSeparator>
-                        <TimelineContent>Caremate - FullStack Developer</TimelineContent>
+                        <TimelineContent className='ex-text'>Caremate - FullStack Developer</TimelineContent>
                     </TimelineItem>
 
 
                     <TimelineItem>
-                        <TimelineOppositeContent color="white">
+                        <TimelineOppositeContent color="white" className='ex-text'>
                             Canadian Museum for Human Rights - UofM Industrial Project
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot/>
                             <TimelineConnector/>
                         </TimelineSeparator>
-                        <TimelineContent>12/2023 - 04/2024 </TimelineContent>
+                        <TimelineContent className='ex-text'>12/2023 - 04/2024 </TimelineContent>
                     </TimelineItem>
 
                     <TimelineItem>
-                        <TimelineOppositeContent color="white">
+                        <TimelineOppositeContent color="white" className='ex-text'>
                             10/2022 - 04/2023
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot/>
                             <TimelineConnector/>
                         </TimelineSeparator>
-                        <TimelineContent>Pacific Institute for the Mathematical Sciences - Data Analyst</TimelineContent>
+                        <TimelineContent className='ex-text'>Pacific Institute for the Mathematical Sciences - Data Analyst</TimelineContent>
                         
                     </TimelineItem>
 
                     <TimelineItem>
-                        <TimelineOppositeContent color="white">
+                        <TimelineOppositeContent color="white" className='ex-text'>
                             Senior Resident Advisor - University of Manitoba Student Residences
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot/>
                         </TimelineSeparator>
-                        <TimelineContent>08/2022 - 04/2023 </TimelineContent>
+                        <TimelineContent className='ex-text'>08/2022 - 04/2023 </TimelineContent>
                     </TimelineItem>
                 </Timeline>
             </div>

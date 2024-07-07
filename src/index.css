@@ -41,6 +41,8 @@ body {
   flex-direction: column;
   color: black;
   align-items: center;
+  position: relative;
+
 }
 
 @keyframes bounce {
@@ -68,6 +70,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 50px;
+
 }
 
 .about-me-container #globe{
@@ -83,6 +86,8 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 25px;
+  position: relative;
+
 }
 
 .skills-container #front-end-skills{
@@ -162,6 +167,8 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 75px;
+  position: relative;
+
 }
 
 .projects-container{
@@ -171,6 +178,8 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  position: relative;
+
 }
 
 .projects-container #projects{
@@ -201,6 +210,8 @@ body {
   align-items: center;
   padding-top: 75px;
   color: white;
+  position: relative;
+
 }
 
 .links .links-content{
@@ -216,6 +227,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
+  position: relative;
+
 }
 
 .contact-form label{
@@ -257,23 +270,113 @@ form{
   color: white;
 }
 
-@media (max-width:768px){
-  .projects-container{
-    width: 50%;
-  }
-
-  .experience-container{
-    width: 50%;
-  }
-
-  .header{
-    width: 50%;
-  }
-
-  .contact-form{
-    width: 50%;
-  }
-
+.submit-button:hover{
+  scale: 1.2;
 }
+
+@media (max-width: 768px) {
+  .header,
+  .projects-container,
+  .experience-container,
+  .contact-form {
+    width: 100%; /* Adjusted to 100% width for smaller screens */
+  }
+
+  h1{
+    font-size: 18px;
+  }
+  
+  .skills-container #front-end-skills img{
+    width: 28px;
+    height: 28px;
+  }
+  .skills-container #back-end-skills img{
+    width: 28px;
+    height: 28px;
+  }
+  .skills-container #data-analysis-skills img{
+    width: 28px;
+    height: 28px;
+  }
+  .skills-container #tools-testing-skills img{
+    width: 28px;
+    height: 28px;
+  }
+  .skills-container #current-radar-skills img{
+    width: 28px;
+    height: 28px;
+  }
+
+  h3{
+    font-size: 18px
+  }
+  
+  #home{
+    display: none;
+  }
+
+  .experience-container .ex-text{
+    font-size: 11px;
+  }
+
+  .projects-container h1{
+    font-size: 18px;
+  }
+  .projects-container .project-desc{
+    font-size: 11px;
+  }
+
+  .projects-container h3{
+    font-size: 14px !important;
+  }
+  
+
+  .about-me-container .project-desc{
+    font-size: 13px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 10px 0;
+  }
+  .navbar-brand {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .navbar-toggler {
+    margin-right: 200px;
+  }
+
+
+  .navbar-brand {
+    margin-left: 200px;
+  }
+  
+}
+
+.about-me-container,
+.skills-container,
+.experience-container,
+.projects-container,
+.links,
+.contact-form,
+.ending-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+
 
 
