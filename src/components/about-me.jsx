@@ -96,21 +96,22 @@ export default function Aboutme(){
                             className='globe-container'
                     >
                     <h3>Feel free to spin around</h3>
-                    <Globe
+                    <Globe className="globe-component"
                     ref={globeEl}
                     globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                     pointsData={pointsData}
                     pointColor="color"
                     pointRadius={0.0}
                     backgroundColor="#141619"
-                    width={800}
+                    width={700}
+                    height={600}
                     labelText="label"
                     labelDotRadius={0.5}
                     labelAltitude={0}
                     labelsData={pointsData}
                     labelLat="lat"
                     labelLng="lng"
-                    labelSize={1.5}
+                    labelSize={2.5}
                     >
                     </Globe>
                 </motion.div>

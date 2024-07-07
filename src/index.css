@@ -283,32 +283,32 @@ form{
   }
 
   h1{
-    font-size: 18px;
+    font-size: 12px;
   }
   
   .skills-container #front-end-skills img{
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
   }
   .skills-container #back-end-skills img{
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
   }
   .skills-container #data-analysis-skills img{
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
   }
   .skills-container #tools-testing-skills img{
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
   }
   .skills-container #current-radar-skills img{
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
   }
 
   h3{
-    font-size: 18px
+    font-size: 12px
   }
   
   #home{
@@ -316,18 +316,18 @@ form{
   }
 
   .experience-container .ex-text{
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .projects-container h1{
-    font-size: 18px;
+    font-size: 12px;
   }
   .projects-container .project-desc{
     font-size: 11px;
   }
 
   .projects-container h3{
-    font-size: 14px !important;
+    font-size: 9px !important;
   }
   
 
@@ -343,20 +343,23 @@ form{
     display: block;
     padding: 10px 0;
   }
-  .navbar-brand {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
+  
   .navbar-toggler {
-    margin-right: 200px;
+    margin-right: 275px;
   }
 
 
   .navbar-brand {
-    margin-left: 200px;
+    margin-left: 275px;
   }
+
+  .links .links-content{
+    gap:25px;
+    height: 80px;
+  }
+
+  
+  
   
 }
 
